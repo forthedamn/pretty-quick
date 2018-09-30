@@ -1,0 +1,25 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "removeComments": true,
+    "target": "ES6",  
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": false,
+    "jsx": "react",
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "importHelpers": true,
+    "lib": ["es7", "dom", "es2017.object"],
+    "outDir": "build",
+    "declaration": true,
+    "typeRoots": [
+      "typings"
+    ]
+  },
+  "include": [
+    "src",
+  ],
+  "exclude": ["node_modules"]
+}

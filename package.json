@@ -28,7 +28,9 @@
     "execa": "^0.8.0",
     "find-up": "^2.1.0",
     "ignore": "^3.3.7",
-    "mri": "^1.1.0"
+    "mri": "^1.1.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.1"
   },
   "scripts": {
     "prepublishOnly": "yarn build",
